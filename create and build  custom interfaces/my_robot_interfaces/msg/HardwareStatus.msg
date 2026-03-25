@@ -1,1 +1,3 @@
-
+float64 termperature
+bool are_motors_ready
+string bedug_message
