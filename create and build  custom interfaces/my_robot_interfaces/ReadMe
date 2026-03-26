@@ -1,0 +1,15 @@
+## 📦 ROS2 Workspace Structure
+
+```
+ros2_ws/
+└── src/
+    ├── my_py_pkg/              # Python package
+    ├── my_cpp_pkg/             # C++ package
+    └── my_robot_interfaces/    # Custom interfaces
+        ├── msg/
+        │   ├── HardwareStatus.msg
+        │   └── LedStateArray.msg
+        └── srv/
+            ├── ComputeRectangle.srv
+            └── SetLed.srv
+```
