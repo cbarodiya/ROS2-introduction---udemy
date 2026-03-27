@@ -1,1 +1,8 @@
+They are like variables that control your robot’s behavior without changing the code.
 
+If you have a robot node:
+
+speed = 5 → how fast robot moves
+camera_on = true → camera enabled or not
+
+These are ROS 2 parameters.
