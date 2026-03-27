@@ -6,3 +6,7 @@ speed = 5 → how fast robot moves
 camera_on = true → camera enabled or not
 
 These are ROS 2 parameters.
+
+
+ros2 commands to assign a value (parameters)
+"ros2 run 'package_name' 'topic_name' --ros-args -p data1:='' -p data2:='' "
