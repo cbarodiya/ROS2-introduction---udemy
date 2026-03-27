@@ -13,3 +13,14 @@ ros2_ws/
             ├── ComputeRectangle.srv
             └── SetLed.srv
 ```
+HOW TO CREATE AND BUILD CUSTOM INTERFACE
+ros2 terminal command 
+"
+cd ros2_ws/src/
+ls
+ros2 pkg create my_robot_interfaces
+ls
+my_robot_interfaces
+ls
+rm -r include/ src
+"
