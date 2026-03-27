@@ -1,3 +1,3 @@
-float64 termperature
+float64 temperature
 bool are_motors_ready
-string bedug_message
+string debug_message
