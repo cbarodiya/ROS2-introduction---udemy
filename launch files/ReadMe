@@ -1,1 +1,44 @@
+In ROS 2, “launch files”  are special files used to start and manage multiple nodes at once.
 
+
+🚀 What is a launch file?
+
+A launch file is like a startup script for your robot system.
+
+Instead of running many commands one by one, you write one launch file that:
+
+- Starts multiple nodes
+- Sets parameters
+- Connects everything together
+
+
+🧠 Simple idea
+
+Without launch file:
+run node1
+run node2
+run node3
+
+With launch file:
+run everything using 1 command ✅
+
+📂 Types of launch files in ROS 2
+ROS 2 mainly uses Python-based launch files:
+.launch.py ✅ (most common)
+XML format (older style, less used)
+
+▶️ How to run a launch file
+Use this command:
+ros2 launch <package_name> <file_name.launch.py>
+
+Example:
+ros2 launch my_package my_launch_file.launch.py
+
+
+🔧 What can launch files do?
+They can:
+- Start multiple nodes at once
+- Set parameters (like speed, topic names)
+- Remap topics
+- Launch nodes on different machines
+- Add delays or conditions
