@@ -42,3 +42,15 @@ They can:
 - Remap topics
 - Launch nodes on different machines
 - Add delays or conditions
+
+create launch folder in package section 
+ros2_ws
+ └── src
+      ├── my_py_pkg
+      ├── my_cpp_pkg
+      └── my_robot_launch
+            ├── package.xml
+            ├── CMakeLists.txt   
+            └── launch
+                 └── number_app.launch.xml
+                        
